@@ -1,0 +1,27 @@
+
+:root {
+  --empresaOscuro         : #006381;
+  --empresaClaroBrillante : #E4FBFF;
+  --empresaClaro          : #7ECBE7;
+  --empresaClaroRealce    : #E5FFFF;
+  --logoVerde             : #B2DDA8;
+  --logoOscuro            : #415D6C;
+  --logoGrisRealce        : #A6A6A6;
+
+  --charcoalGray          : #121212;
+  --notSoBlack            : #161618;
+  --notSoGray             : #2A2A2A;
+}
+
+@media ( prefers-color-scheme: dark ) {
+  :root { 
+    background-color : var(--notSoBlack);
+    color: #ffffff;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

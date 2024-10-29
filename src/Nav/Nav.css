@@ -1,0 +1,77 @@
+:root {
+  --empresaOscuro         : #006381;
+  --empresaClaroBrillante : #E4FBFF;
+  --empresaClaro          : #7ECBE7;
+  --empresaClaroRealce    : #E5FFFF;
+  --logoVerde             : #B2DDA8;
+  --logoOscuro            : #415D6C;
+  --logoGrisRealce        : #A6A6A6;
+
+  --charcoalGray          : #121212;
+  --notSoBlack            : #161618;
+  --notSoGray             : #2A2A2A;
+
+  --notSoWhite            : #FFFFFC;
+  --hakujiWhite           : #F8FBF8;
+  --milkyWhite            : #F3F3F3;
+
+  background-color : var( --notSoWhite );
+  color            : var( --notSoBlack );
+
+  font-family : "Comfortaa", sans-serif;
+  font-weight : 400;
+  font-style  : normal;
+}
+
+@media ( prefers-color-scheme: dark ) {
+  :root { 
+    background-color : var( --notSoBlack );
+    color            : var( --notSoWhite );
+  }
+}
+
+.navMainContainer {
+  display          : flex;
+  background-color : var( --milkyWhite );
+  position         : fixed;
+  top              : 0;
+  width: 100%;
+}
+
+@media ( prefers-color-scheme: dark ) {
+  .navMainContainer {
+    background-color : var( --notSoGray );
+  }
+}
+
+.navButtonsContainer {
+  display      : flex;
+  margin-left  : auto;
+}
+
+.navButtonsContainer a {
+  margin       : auto;
+  margin-left  : 1rem;  
+  font-size    : 1rem;
+  cursor       : pointer;
+  text-align   : center;
+  padding-right: 2rem;
+}
+
+.navButtonsContainer a:hover {
+  font-weight : 700;
+  font-size   : 1.1rem;
+  transition  : ease-in-out all 200ms;
+}
+
+.logo {
+  width       : 4.5rem;
+  margin-top  : 0.5rem;
+  margin-left : 0.5rem;
+}
+
+@media ( prefers-color-scheme: light ) {
+  .logo {
+    filter : brightness(0.4);
+  }
+}
