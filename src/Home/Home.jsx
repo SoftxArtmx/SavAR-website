@@ -1,9 +1,10 @@
 import './Home.css'
 import Nav from '../Nav/Nav.jsx'
+import Feature from './Feature/FeatureCard.jsx'
+ 
 function Home() {
   return (
     <>
-      <div>
       <Nav/>
         <div className = "headerMainContainer">
           <h1>¡Esto es SavAR!</h1>
@@ -15,6 +16,14 @@ function Home() {
           </p>
           <button>Descargar</button>
         </div>
+
+        <div className = 'featuresContainer' >
+          <h2>Funciones</h2>
+          <div className='gridFeatures'>
+            <Feature title="Gestiona tu presupuesto" imgSrc="../src/assets/superFondo.jpg" description="Gestiona tu presupuesto de forma inteligente."/>
+            <Feature title="Maneja tus compras" imgSrc="../src/assets/escaneoFeature.png" description="Organiza tu compra como nunca antes se ha visto."/>
+            <Feature title="Mejora tus finanzas" imgSrc="../src/assets/react.svg" description="This is a feature v1"/>
+          </div>
       </div>
     </>
   )
