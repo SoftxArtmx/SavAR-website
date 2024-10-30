@@ -112,14 +112,11 @@
 }
 
 .accionResalte {
-  position: relative; /* Permite la posición absoluta de los hijos */
   display: inline-flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   vertical-align: baseline;
-  width: 100%; /* Fija el ancho, ajústalo según tus necesidades */
-  height: 30px; /* Fija la altura para mantener la posición */
   overflow: hidden;
 }
 
@@ -127,24 +124,6 @@
   margin-top: 2rem;
 }
 
-.gridFeatures {
-  display: grid;
-
-}
-
-@media (max-width: 768px) {
-  .gridFeatures {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-}
-
-@media (min-width: 1280px) {
-  .gridFeatures {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-  }
-}
 
 .featuresContainer h2 {
   width: 100%;

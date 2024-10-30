@@ -1,7 +1,6 @@
 import './Home.css'
 import Nav from '../Nav/Nav.jsx'
-import Feature from './Feature/FeatureCard.jsx'
- 
+import FeatureCarousel from './Feature/FeatureCarousel.jsx' 
 function Home() {
   return (
     <>
@@ -18,12 +17,8 @@ function Home() {
         </div>
 
         <div className = 'featuresContainer' >
-          <h2>Funciones</h2>
-          <div className='gridFeatures'>
-            <Feature title="Gestiona tu presupuesto" imgSrc="../src/assets/superFondo.jpg" description="Gestiona tu presupuesto de forma inteligente."/>
-            <Feature title="Maneja tus compras" imgSrc="../src/assets/escaneoFeature.png" description="Organiza tu compra como nunca antes se ha visto."/>
-            <Feature title="Mejora tus finanzas" imgSrc="../src/assets/react.svg" description="This is a feature v1"/>
-          </div>
+          <h2>Get a taste of SavAR!</h2>
+          <FeatureCarousel/>
       </div>
     </>
   )

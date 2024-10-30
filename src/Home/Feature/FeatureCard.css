@@ -60,6 +60,12 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .featureCardContainer {
+    width: 20rem;
+  }
+}
+
 .featureCardContainer h1 {
   font-family: "Poppins", sans-serif;
   width: 100%;
