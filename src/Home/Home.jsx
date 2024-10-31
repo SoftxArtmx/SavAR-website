@@ -1,6 +1,8 @@
 import './Home.css'
 import Nav from '../Nav/Nav.jsx'
 import FeatureCarousel from './Feature/FeatureCarousel.jsx' 
+import Footer from '../Footer/Footer.jsx'
+
 function Home() {
   return (
     <>
@@ -20,6 +22,7 @@ function Home() {
           <h2>Get a taste of SavAR!</h2>
           <FeatureCarousel/>
       </div>
+      <Footer/>
     </>
   )
 }

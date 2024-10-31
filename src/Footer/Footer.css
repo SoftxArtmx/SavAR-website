@@ -35,6 +35,7 @@
 }
 
 .footer {
+    margin-top: 12rem;
     position: relative;
     width: 100%;
     background: var(--empresaClaro);
