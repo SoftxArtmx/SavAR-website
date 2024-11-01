@@ -19,7 +19,7 @@ function Home() {
         </div>
 
         <div className = 'featuresContainer' >
-          <h2>Get a taste of SavAR!</h2>
+          <h2>Prueba SavAR y cambia tu manera de comprar!</h2>
           <FeatureCarousel/>
       </div>
       <Footer/>
