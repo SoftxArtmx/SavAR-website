@@ -47,3 +47,17 @@
       grid-template-rows: auto;
     }
   }
+
+.carrusel{
+    z-index: -1;
+    width: 85%;
+    height: 500;
+    margin:auto;
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px){ 
+   .carrusel {
+    width: 80%;
+   }
+}
