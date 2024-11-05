@@ -6,11 +6,10 @@ function Nav(){
     return(
         <>  
         <div className = "navMainContainer">
-          <img className = "logo" src='../src/assets/logo.png'></img>
-
+          <a href='/index'><img className = "logo" src='../src/assets/logo.png'/></a>
           <div className = "navButtonsContainer">
-          <a>Sobre nosotros</a>
-          <a>Ayuda</a>
+          <a href='/aboutus'>Sobre nosotros</a>
+          <a href='/help'>Ayuda</a>
           </div>
         </div>
         </>

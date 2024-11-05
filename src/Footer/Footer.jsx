@@ -1,4 +1,5 @@
-import { logoAndroid, logoFigma, logoLinkedin, logoGithub } from 'ionicons/icons';
+import { logoAndroid, logoDiscord, logoSoundcloud, logoGithub } from 'ionicons/icons';
+
 import { IonIcon } from '@ionic/react';
 import React from 'react';
 import './Footer.css';
@@ -20,16 +21,16 @@ function Footer() {
                 </li>
                 <li className="social-icon__item">
                     <a className="social-icon__link" href="#">
-                        <IonIcon icon={logoFigma} />
+                        <IonIcon icon={logoDiscord} />
                     </a>
                 </li>
                 <li className="social-icon__item">
                     <a className="social-icon__link" href="#">
-                        <IonIcon icon={logoLinkedin} />
+                        <IonIcon icon={logoSoundcloud} />
                     </a>
                 </li>
                 <li className="social-icon__item">
-                    <a className="social-icon__link" href="#">
+                    <a className="social-icon__link" href="https://github.com/SoftxArtmx">
                         <IonIcon icon={logoGithub} />
                     </a>
                 </li>
@@ -51,7 +52,7 @@ function Footer() {
                     <a className="menu__link" href="#">Contact</a>
                 </li>
             </ul>
-            <p>&copy;2024 SavAR S.A de C.V | Todos los Derechos Reservados</p>
+            <p>&copy;2024 SoftxArtMx S.A de C.V | Todos los Derechos Reservados</p>
         </footer>
     );
 }

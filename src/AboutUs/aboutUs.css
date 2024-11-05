@@ -31,8 +31,8 @@
 
 
 /* ------------------------------------- */
-.headerMainContainer {
-  background-image    : url("../src/assets/superFondo.jpg");
+.headerAboutUsContainer {
+  background-image    : url("../src/assets/softxartTeam.jpg");
   background-size     : cover;
   background-repeat   : no-repeat;
   background-position : center;
@@ -47,96 +47,93 @@
   padding-bottom: 4rem;
 }
 
-.headerMainContainer h1 {
+.headerAboutUsContainer h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   margin: auto;
-  margin-top: 5rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
   text-align: center;
   color: var(--notSoWhite);
+  margin-bottom: 1rem;
 }
 
-.headerMainContainer h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.8rem;
-  margin: auto;
-  margin-top: 2rem;
-  width: 100%;
-  text-align: center;
-  color: var(--notSoWhite);
-}
-
-.headerMainContainer p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5rem;
-  margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  width: 100%;
-  text-align: center;
-  color: var(--notSoWhite);
-}
-
-.accionResalte {
-  font-weight: 900;
-}
-
-.headerMainContainer button {
-  width: 10rem;
-  margin: auto;
-  font-size: 1.2rem;
-  padding: 0.9rem;
-  border-radius: 1rem;
-  font-weight: 700;
-  background-color: var(--logoVerde);
-  cursor: pointer;
-  transition: ease-in-out all 300ms;
-  text-align: center;
-}
-
-.headerMainContainer button:hover{
-  background-color: var(--empresaOscuro);
-  color: var(--notSoWhite);
-  font-size: 1.3rem;
-}
-@media (max-width: 768px) {
-  .headerMainContainer {
-    height  : auto;
-  }
-}
-
-.accionResalte {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  vertical-align: baseline;
-  overflow: hidden;
-}
-
-.featuresContainer {
-  margin-top: 2rem;
-}
-
-
-.featuresContainer h2 {
-  width: 80%;
-  margin: auto;
-  text-align: center;
+.headerAboutUsContainer h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-style: normal;
+  font-size: 2.2rem;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: var(--notSoWhite);
+  margin-top: 0rem;
 }
 
 @media ( prefers-color-scheme: light ) {
-   h2{
-    color: var(--notSoBlack);
+  h2, p, li{
+   color: var(--notSoBlack);
+ }
+}
+
+.containerInfoType1 {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.containerInfoType1 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.containerInfoType1 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: auto;
+  text-align:justify;
+  width: 90%;
+  font-size: 1.4rem;
+}
+
+.containerInfoType1 ul {
+  list-style-position: inside;
+}
+
+.containerInfoType1 li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: auto;
+  text-align: justify;
+  width: 90%;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.containerInfoType1 img {
+  width: 80%;
+  height: 20%rem;
+  image-rendering: optimizeSpeed;
+  border-radius: 3rem;
+  display: block;
+  margin: 2rem auto;
+}
+
+@media ( prefers-color-scheme: dark ) {
+  .bgT1 { 
+    background-color : var(--charcoalGray);
+    color: #ffffff;
+  }
+}
+
+@media ( prefers-color-scheme: light ) {
+  .bgT1 { 
+    background-color : var(--milkyWhite);
+    color: #ffffff;
   }
 }

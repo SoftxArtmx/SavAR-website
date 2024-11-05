@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer.jsx'
 function Home() {
   return (
     <>
-      <Nav/>
+        <Nav/>
         <div className = "headerMainContainer">
           <h1>¡Esto es SavAR!</h1>
           <h2>Una nueva forma de hacer compras</h2>
