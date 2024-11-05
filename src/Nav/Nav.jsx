@@ -6,7 +6,7 @@ function Nav(){
     return(
         <>  
         <div className = "navMainContainer">
-          <a href='/index'><img className = "logo" src='../src/assets/logo.png'/></a>
+          <a href='/index'><img className = "logo" src='../src/assets/softxartLogo.png'/></a>
           <div className = "navButtonsContainer">
           <a href='/aboutus'>Sobre nosotros</a>
           <a href='/help'>Ayuda</a>
