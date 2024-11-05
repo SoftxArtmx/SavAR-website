@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 import imagenMision from '../assets/softxartTeam.jpg'
 import imagenVision from '../assets/softxartTeam.jpg'
 import imagenCultura from '../assets/softxartTeam.jpg'
-import './aboutUS.css';
+import '../AboutUs/aboutUs.css';
 
 function AboutUs() {
     return (
