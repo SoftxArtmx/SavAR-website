@@ -35,23 +35,6 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-            <ul className="menu">
-                <li className="menu__item">
-                    <a className="menu__link" href="#">Home</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="#">About</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="#">Services</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="#">Team</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="#">Contact</a>
-                </li>
-            </ul>
             <p>&copy;2024 SoftxArtMx S.A de C.V | Todos los Derechos Reservados</p>
         </footer>
     );
