@@ -17,7 +17,7 @@ import HomeContact from './HomeContact/HomeContact.jsx'
 // Rutas de la pagina
 const router = createBrowserRouter([
   {
-    path: "/index",
+    path: "/",
     element: ( <Home/> ),
   },
   {
