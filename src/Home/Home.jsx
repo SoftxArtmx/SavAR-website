@@ -2,12 +2,12 @@ import './Home.css'
 import Nav from '../Nav/Nav.jsx'
 import FeatureCarousel from './Feature/FeatureCarousel.jsx' 
 import Footer from '../Footer/Footer.jsx'
-
+import imagenFondoH from '../assets/superFondo.jpg'
 function Home() {
   return (
     <>
         <Nav/>
-        <div className = "headerMainContainer">
+        <div className = "headerMainContainer" style={{backgroundImage: `url(${imagenFondoH})`}}>
           <h1>¡Esto es SavAR!</h1>
           <h2>Una nueva forma de hacer compras</h2>
           <p> Con SavAR, podrás <br></br>

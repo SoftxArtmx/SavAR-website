@@ -6,13 +6,14 @@ import Footer from '../Footer/Footer';
 import imagenMision from '../assets/softxartTeam.jpg'
 import imagenVision from '../assets/softxartTeam.jpg'
 import imagenCultura from '../assets/softxartTeam.jpg'
+import imagenFondoH from '../assets/softxartTeam.jpg'
 import '../AboutUs/aboutUs.css';
 
 function AboutUs() {
     return (
       <>
       <Nav/>
-      <div className = "headerAboutUsContainer">
+      <div className = "headerAboutUsContainer" style={{backgroundImage: `url(${imagenFondoH})`}}>
         <h1>SoftxArt</h1>
         <h2>Donde el software es un arte...</h2>
       </div>

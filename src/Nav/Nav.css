@@ -71,6 +71,10 @@
   transition  : ease-in-out all 200ms;
 }
 
+.navButtonsContainer a:visited {
+  color: white;
+}
+
 .logo {
   width       : 4.5rem;
   margin-top  : 0.5rem;
