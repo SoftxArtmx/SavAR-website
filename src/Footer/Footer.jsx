@@ -20,12 +20,12 @@ function Footer() {
                     </a>
                 </li>
                 <li className="social-icon__item">
-                    <a className="social-icon__link" href="#">
+                    <a className="social-icon__link" href="https://discord.gg/N44tuv2Gw7">
                         <IonIcon icon={logoDiscord} />
                     </a>
                 </li>
                 <li className="social-icon__item">
-                    <a className="social-icon__link" href="#">
+                    <a className="social-icon__link" href="https://open.spotify.com/playlist/1Fdq4g0A5Z8uisdBwIjZvQ?si=0fe40f61d2264e61">
                         <IonIcon icon={logoSoundcloud} />
                     </a>
                 </li>

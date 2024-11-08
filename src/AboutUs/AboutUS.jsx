@@ -16,6 +16,7 @@ function AboutUs() {
       <div className = "headerAboutUsContainer" style={{backgroundImage: `url(${imagenFondoH})`}}>
         <h1>SoftxArt</h1>
         <h2>Donde el software es un arte...</h2>
+        <button onClick={() => window.location.href = '/team'}>Conoce nuestro equipo</button>
       </div>
 
       <div className='containerInfoType1 bgT1'>

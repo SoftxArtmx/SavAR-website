@@ -12,7 +12,8 @@ import '@mantine/carousel/styles.css';
 import './index.css'
 import 'normalize.css'
 import Home from './Home/Home.jsx'
-import AboutUs from './AboutUs/AboutUS.jsx';
+import Team from './AboutUs/Team/Team.jsx';
+import AboutUs from './AboutUs/aboutUS.jsx';
 import HomeContact from './HomeContact/HomeContact.jsx'
 // Rutas de la pagina
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/help",
     element: (<HomeContact/>)
+  },
+  { 
+    path: "/team",
+    element: (<Team/>)
   }
 ])
 createRoot(document.getElementById('root')).render(

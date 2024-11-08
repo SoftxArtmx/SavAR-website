@@ -1,30 +1,31 @@
 :root {
-  --empresaOscuro         : #006381;
-  --empresaClaroBrillante : #E4FBFF;
-  --empresaClaro          : #7ECBE7;
-  --empresaClaroRealce    : #E5FFFF;
-  --logoVerde             : #B2DDA8;
-  --logoOscuro            : #415D6C;
-  --logoGrisRealce        : #A6A6A6;
+  --empresaOscuro: #006381;
+  --empresaClaroBrillante: #E4FBFF;
+  --empresaClaro: #7ECBE7;
+  --empresaClaroRealce: #E5FFFF;
+  --logoVerde: #B2DDA8;
+  --logoOscuro: #415D6C;
+  --logoGrisRealce: #A6A6A6;
 
-  --charcoalGray          : #121212;
-  --notSoBlack            : #161618;
-  --notSoGray             : #2A2A2A;
+  --charcoalGray: #121212;
+  --notSoBlack: #161618;
+  --notSoGray: #2A2A2A;
 
-  --notSoWhite            : #FFFFFC;
-  --hakujiWhite           : #F8FBF8;
-  --milkyWhite            : #F3F3F3;
+  --notSoWhite: #FFFFFC;
+  --hakujiWhite: #F8FBF8;
+  --milkyWhite: #F3F3F3;
 
-  background-color : var( --notSoWhite );
-  color            : var( --notSoBlack );
+  background-color: var(--notSoWhite);
+  color: var(--notSoBlack);
 
-  font-family : "Comfortaa", sans-serif;
-  font-weight : 400;
-  font-style  : normal;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-@media ( prefers-color-scheme: dark ) {
-  :root { 
-    background-color : var(--notSoBlack);
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--notSoBlack);
     color: #ffffff;
   }
 }
@@ -32,17 +33,17 @@
 
 /* ------------------------------------- */
 .headerAboutUsContainer {
-  background-size     : cover;
-  background-repeat   : no-repeat;
-  background-position : center;
-  display             : flex;
-  flex-direction      : column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
   margin: auto;
   margin-top: 5rem;
   height: 32rem;
-  -webkit-box-shadow: inset 0px 0px 500px 225px rgba(0,0,0,0.65);
-  -moz-box-shadow: inset 0px 0px 500px 225px rgba(0,0,0,0.65);
-  box-shadow: inset 0px 0px 500px 225px rgba(0,0,0,0.65);
+  -webkit-box-shadow: inset 0px 0px 500px 225px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: inset 0px 0px 500px 225px rgba(0, 0, 0, 0.65);
+  box-shadow: inset 0px 0px 500px 225px rgba(0, 0, 0, 0.65);
   padding-bottom: 4rem;
 }
 
@@ -67,12 +68,49 @@
   text-align: center;
   color: var(--notSoWhite);
   margin-top: 0rem;
+  margin-bottom: 1rem;
 }
 
-@media ( prefers-color-scheme: light ) {
-  h2, p, li{
-   color: var(--notSoBlack);
- }
+.headerAboutUsContainer button {
+  border-radius: 2rem;
+  width: 19rem;
+  font-size: 1.1rem;
+  margin: auto;
+  padding: 1rem 2rem;
+  background-color: var(--empresaClaroBrillante);
+  font-weight: 700;
+  cursor: pointer;
+  transition: ease-in-out all 300ms;
+  text-align: center;
+}
+
+.headerAboutUsContainer button:hover {
+  background-color: var(--empresaOscuro);
+  color: var(--notSoWhite);
+  font-size: 1.15rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .headerAboutUsContainer button {
+    color: white;
+    background-color: var(--empresaOscuro);
+  }
+
+  .headerAboutUsContainer button:hover {
+    background-color: var(--empresaClaro);
+    color: black;
+    font-size: 1.15rem;
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+
+  h2,
+  p,
+  li {
+    color: var(--notSoBlack);
+  }
 }
 
 .containerInfoType1 {
@@ -95,7 +133,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   margin: auto;
-  text-align:justify;
+  text-align: justify;
   width: 90%;
   font-size: 1.4rem;
 }
@@ -123,16 +161,16 @@
   margin: 2rem auto;
 }
 
-@media ( prefers-color-scheme: dark ) {
-  .bgT1 { 
-    background-color : var(--charcoalGray);
+@media (prefers-color-scheme: dark) {
+  .bgT1 {
+    background-color: var(--charcoalGray);
     color: #ffffff;
   }
 }
 
-@media ( prefers-color-scheme: light ) {
-  .bgT1 { 
-    background-color : var(--milkyWhite);
+@media (prefers-color-scheme: light) {
+  .bgT1 {
+    background-color: var(--milkyWhite);
     color: #ffffff;
   }
 }
