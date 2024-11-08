@@ -8,6 +8,7 @@ import imagenFun1 from '../../../assets/escaneoFeature.png';
 import pfpMJ from '../../../assets/pfps/pfpMarcosJ.jpeg'
 import pfpCM from '../../../assets/pfps/pfpCarlosM.jpeg'
 import pfpLZ from '../../../assets/pfps/pfpLeo.jpeg'
+import pfpGufi from '../../../assets/pfps/pfpGufi.jpeg'
 
 function TeamCarousel() {
   const autoplay = useRef(Autoplay({ delay: 3000 }));
@@ -28,15 +29,17 @@ function TeamCarousel() {
       onMouseEnter={autoplay.current.stop}
       onMouseLeave={autoplay.current.reset}
       dragFree = "true"
+      loop
       >
         <Carousel.Slide><Member puesto="CEO" title="Hermione Sandoval" imgSrc={imagenFun1} description="'Saquen Valo'" linkGit={gitLinks["HER"]} linkIg = {igLinks["HER"]} linkLkdn = {lkdnLinks["HER"]} /></Carousel.Slide>
         <Carousel.Slide><Member puesto="Vision Specialist" title="Leonardo Zavala" imgSrc={pfpLZ} description="'A un hombre no le preguntas dos cosas...
 Cuánto gana, ni tampoco cuánto lleva del sprint'" linkGit={gitLinks["LEONARDO"]} linkIg = {igLinks["LEONARDO"]} linkLkdn = {lkdnLinks["LEONARDO"]}/></Carousel.Slide>
-        <Carousel.Slide><Member puesto="Developer" title="Carlos Medina" imgSrc={pfpCM} description="'Mi mamá me dio la vida, Lamia las ganas de vivirla'" linkGit={gitLinks["CARLOS"]} linkIg = {igLinks["CARLOS"]} linkLkdn = {lkdnLinks["CARLOS"]}/></Carousel.Slide>
+        <Carousel.Slide><Member puesto="Dev" title="Carlos Medina" imgSrc={pfpCM} description="'Mi mamá me dio la vida, Lamia las ganas de vivirla'" linkGit={gitLinks["CARLOS"]} linkIg = {igLinks["CARLOS"]} linkLkdn = {lkdnLinks["CARLOS"]}/></Carousel.Slide>
         <Carousel.Slide><Member puesto="DBA" title="Gael Costilla" imgSrc={imagenFun1} description="'Git's nightmare'" linkGit={gitLinks["GAEL"]} linkIg = {igLinks["GAEL"]} linkLkdn = {lkdnLinks["GAEL"]}/></Carousel.Slide>
         <Carousel.Slide><Member puesto="CTO" title="Marcos Juarez" imgSrc={pfpMJ} description="'Ojalá la vida pudiera ser recursiva...'" linkGit={gitLinks["MARCOS"]} linkIg = {igLinks["MARCOS"]} linkLkdn = {lkdnLinks["MARCOS"]}/></Carousel.Slide>
-        <Carousel.Slide><Member puesto="CUM" title="Diego Muñoz" imgSrc={imagenFun1} description="'No te preocupes tanto por el futuro... A lo mejor ni llegas'" linkGit={gitLinks["REDE"]} linkIg = {igLinks["REDE"]} linkLkdn = {lkdnLinks["REDE"]}/></Carousel.Slide>
-        <Carousel.Slide><Member puesto="RookieAllStar" title="Rodrigo Mendez" imgSrc={imagenFun1} description="'Quesocrazy quote'" linkGit={gitLinks["RODRI"]} linkIg = {igLinks["RODRI"]} linkLkdn = {lkdnLinks["RODRI"]}/></Carousel.Slide>
+        <Carousel.Slide><Member puesto="SCRUM MASTER" title="Diego Muñoz" imgSrc={imagenFun1} description="'No te preocupes tanto por el futuro... A lo mejor ni llegas'" linkGit={gitLinks["REDE"]} linkIg = {igLinks["REDE"]} linkLkdn = {lkdnLinks["REDE"]}/></Carousel.Slide>
+        <Carousel.Slide><Member puesto="Jr" title="Rodrigo Mendez" imgSrc={imagenFun1} description="'Quesocrazy quote'" linkGit={gitLinks["RODRI"]} linkIg = {igLinks["RODRI"]} linkLkdn = {lkdnLinks["RODRI"]}/></Carousel.Slide>
+        <Carousel.Slide><Member puesto="Team's mascot" title="Goofy Sandoval" imgSrc={pfpGufi} description="'Woof woof'" linkGit={gitLinks["HER"]} linkIg = {igLinks["HER"]} linkLkdn = {lkdnLinks["HER"]}/></Carousel.Slide>
       </Carousel>
     </div>
     </>

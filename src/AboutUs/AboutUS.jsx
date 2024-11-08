@@ -3,10 +3,10 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
-import imagenMision from '../assets/softxartTeam.jpg'
-import imagenVision from '../assets/softxartTeam.jpg'
-import imagenCultura from '../assets/softxartTeam.jpg'
-import imagenFondoH from '../assets/softxartTeam.jpg'
+import imagenMision from '../assets/bannerSoftxart.jpeg'
+import imagenVision from '../assets/bannerSoftxart.jpeg'
+import imagenCultura from '../assets/bannerSoftxart.jpeg'
+import imagenFondoH from '../assets/bannerSoftxart.jpeg'
 import '../AboutUs/aboutUs.css';
 
 function AboutUs() {

@@ -1,6 +1,6 @@
 // src/components/acercaDe.js
 import React from 'react';
-import imagenFondoH from '../../assets/softxartTeam.jpg'
+import imagenFondoH from '../../assets/bannerSoftxart.jpeg'
 import Nav from '../../Nav/Nav.jsx';
 import TeamCarousel from './TeamCarousel/TeamCarousel'
 import '../Team/Team.css'
