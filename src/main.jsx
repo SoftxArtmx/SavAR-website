@@ -13,9 +13,10 @@ import './index.css'
 import 'normalize.css'
 import Home from './Home/Home.jsx'
 import Team from './AboutUs/Team/Team.jsx';
-import AboutUs from './AboutUs/aboutUS.jsx';
+import AboutUs from './AboutUs/AboutUS.jsx';
 import HomeContact from './HomeContact/HomeContact.jsx'
 // Rutas de la pagina
+// C.
 const router = createBrowserRouter([
   {
     path: "/",
