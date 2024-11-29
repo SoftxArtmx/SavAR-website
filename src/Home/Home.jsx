@@ -15,7 +15,7 @@ function Home() {
             <span>mejorar tus finanzas.</span>
           </span>
         </p>
-        <button>Descargar</button>
+        <button onClick={() => window.location.href = 'https://drive.google.com/drive/folders/1CnydFHBBF7BJJhXK1d73Y4YDA8le-xWZ?usp=sharing'}>Descargar</button>
       </div>
 
       <div className='featuresContainer' >
